@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.globalButton {
+  background-color:#000000;
+  display:inline-block;
+  cursor:pointer;
+  color:#adadad;
+  font-family:Times New Roman;
+  font-weight:bold;
+  padding:3px 0px;
+  text-decoration:none;
+  border:none
+}
+ .globalInput { 
+   font-family:Times New Roman;
+   text-align:center; 
+   padding:3px; 
+   border-width:0px; 
+   background-color:#000000; 
+   border-color:#adadad; 
+   color:#adadad; 
+   font-weight:bold  
+} 
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'LOAD';
+  display: inline-block;
+  background-color:#000000;
+  padding: 3px 0px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight:bold;
+  color:#adadad; 
+  text-align:center; 
+  font-family:Times New Roman;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.playButton {
+	background-color:transparent;
+	border-radius:50px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:monospace;
+	padding:3px 3px;
+	text-decoration:none;
+}
+
+.blockColorPicker {
+	-webkit-appearance: none;
+	border: none;
+  opacity:0.8
+}
+.blockColorPicker::-webkit-color-swatch-wrapper {
+	padding: 0px;
+}
+
+.vSlider {
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+}
